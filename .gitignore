@@ -1,1 +1,102 @@
 Resumenproyecto.md
+
+# -Backend-
+
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Build y archivos compilados
+dist/
+build/
+*.tsbuildinfo
+
+# Variables de entorno y credenciales (¡CRÍTICO para la rúbrica!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Archivos generados por Prisma
+/prisma/migrations/dev/
+*.db
+*.db-journal
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno y habilidades de asistentes de IA (Cursor / Claude / Agents)
+.claude/
+.cursor/
+.agents/
+.devin/
+
+# Archivos del sistema operativo y editores
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -Frontend-
+
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# Build y producción en Next.js
+/.next/
+/out/
+/build
+/dist
+
+# Variables de entorno
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel (archivos generados en despliegues locales)
+.vercel
+
+# Archivos de entorno y habilidades de asistentes de IA
+.claude/
+.cursor/
+.agents/
+.devin/
+
+# Cobertura de pruebas (si agregas testing más adelante)
+/coverage
+
+# Archivos del sistema operativo y editores
+.DS_Store
+*.pem
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
